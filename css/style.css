@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+*{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;   
+    --bg-header: #F03C42;
+    --bg-spaces: #222374;
+    --bg-card-spaces: #ccc;
+    --bg-modalities: #fff;
+    --bg-footer: #000;
+    }
+    
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+.conteiner{
+	margin: 0 auto; 
+	min-width: 320px; /*Opcional - largura minima*/
+	max-width: 900px; /*largura máxima*/
+	width: 100%;
+}
+
+header{
+    background-color: var(--bg-header);
+}
+
+header nav {
+    display: flex;
+}
+
+header h1{
+    color: var(--bg-modalities);
+    font-size: 18px;
+}
+
+header a{
+    color: var(--bg-modalities);
+    font-size: 14px;
+}
+
